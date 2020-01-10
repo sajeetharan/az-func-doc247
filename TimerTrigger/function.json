@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */2 * * * *"
+    },
+    {
+      "type": "twilioSms",
+      "name": "message",
+      "accountSidSetting": "REPLACE_WITH_YOUR_ACCOUNT_SID",
+      "authTokenSetting": "REPLACE_WITH_YOUR_AUTH_TOKEN",
+      "from": "SENDER_NUMBER",
+      "to": "RECIPIENT_NUMBER",
+      "direction": "out"
+    }
+  ]
+}

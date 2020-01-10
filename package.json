@@ -1,0 +1,14 @@
+{
+  "name": "doc247",
+  "version": "1.0.0",
+  "description": "Alert an employee with an SMS to take a break",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "author": "Sajeetharan",
+  "dependencies": {},
+  "devDependencies": {
+    "twilio": "^3.0.0"
+  }
+}
